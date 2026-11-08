@@ -1,0 +1,24 @@
+# Virtual environments
+.venv/
+venv/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+*.pem
+*.key
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# macOS and IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
